@@ -23,6 +23,13 @@ public class SafeCracker {
 		 * combinations
 		 */
 		
+		// for loop that check all numbers from 0 to 10000000
+			// call tryCode inside the for loop
+		for (int i = 0; i < 10000000; i++) {
+			tryCode(i); 
+			
+		}
+		
 
 	}
 
